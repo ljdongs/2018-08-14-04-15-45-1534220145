@@ -1,5 +1,5 @@
 // Write your cade below:
-module.exports = function main(num1, num2) {
+module.exports = function main(num1 = 4, num2 = 2) {
   if (num2 == 0)
   {
   alert('数据不能为0')
